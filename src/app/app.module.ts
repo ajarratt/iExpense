@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { ExpensesModule } from './expenses/expenses.module';
 import { MaterialModule } from './core/modules/material/material.module';
 import { ToolbarComponent } from './core/components/toolbar/toolbar.component';
 
@@ -16,7 +17,8 @@ import { ToolbarComponent } from './core/components/toolbar/toolbar.component';
     BrowserModule,
     AppRoutingModule,
     DashboardModule,
-    MaterialModule
+    MaterialModule,
+    ExpensesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
